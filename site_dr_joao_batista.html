@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. João Batista</title>
+    <link rel="shortcut icon" href="midia/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculadora.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo" class="divheader">
+         <!--<h1>Dr. João Batista</h1>
+            <h2>Cirurgião do aparelho digestivo</h2>
+            <h3>CRM-RN 6274 &nbsp &nbsp RQE: 2046</h3>-->
+            <source media="(max-width:500 )" srcset="midia/img/Logo_PNG_SEMFUNDO_300">
+            <img src="midia/img/Logo_PNG_SEMFUNDO_600.png" alt="Logo joao batista">   
+        </div>
+    </header>
+    <div id="menu" class="divheader">
+        <nav>
+                <a href="#noticias">O que é obesidade?</a>
+                <a href="#calculadoraimc">Calculadora IMC</a>
+                <a href="#">Locais de atendimento</a>
+                <a href="#">Contatos</a>
+        </nav>
+    </div>
+      <main>
+        <section id="noticias">
+            <article>
+                <h2>O que é Obesidade?</h2>
+                <p>A obesidade é uma doença crônica, definida pela Organização Mundial de Saúde (OMS) como o acúmulo anormal ou excessivo de gordura no corpo. O tratamento da obesidade precisa ser de longa duração. Para além do controle, é preciso evitar outras complicações que aparecem com o tempo e resultam em um menor expectativa de vida. Nas crianças e adolescentes, o excesso de peso costuma causar principalmente doenças do coração, Diabetes Mellitus tipo 2 e problemas psicológicos. Quem tem obesidade na infância tem muito mais chance de se tornar um adulto com obesidade.</p>
+            </article>
+        </section>
+        <section id="calculadoraimc">
+            <div>
+                <h2>Calculadora de IMC</h2>
+                <p id="intro">Calcule seu IMC (Índice de Massa Corporal) usando o formulário abaixo. Digite seu peso e sua altura e clique no botão para calcular.</p>
+                <form action="none" method="post" name="bmiform">
+                    <fieldset>
+                        <label for="pounds">Peso (kg):</label>
+                        <input type="text" name="pounds" id="pounds">
+                        <br>
+                        <label for="inches">Altura (cm):</label>
+                        <input type="text" name="inches" id="inches">
+                        <br>
+                        <button type="button" name="calculate" value="Calculate your BMI" onclick="calcBMI()">Calcular IMC</button>
+                    </fieldset>
+                    <fieldset>
+                    <legend>IMC</legend>
+                        <label for="bmi" id="bmi_label">Seu IMC (kg/m <sup>2</sup>) é:</label>
+                        <input type="text" name="bmi" id="bmi" readonly="readonly">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por jbcosme</p>
+        <div id="bola"><img src="midia/img/fotojbcapa.png" alt="foto jb"></div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+/*
+font-family: 'Tenor Sans', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+*/
+
+
+
+body {
+    background-color: #163461;
+}
+
+/* Cabeçalho - display flex em colunas*/
+header{
+    font-family: 'Tenor Sans', sans-serif;
+    display: flex;
+    background-image: linear-gradient(to bottom, #5C7DAD, #41587A, rgb(22,55,97));
+    border-radius: 5px 5px 0px 0px;
+    margin-top: -4px;
+       }
+
+/*Menu - coluna 1 do cabeçalho*/
+div#menu {
+background-color: rgb(22,55,97);
+padding-right: 5px;
+padding-left: 5px;
+color: rgb(22,55,97);
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(181,148,90);
+    padding: 8px;
+}
+
+nav > a:hover{
+    background-color: #3968AD;
+    border-radius: 5px;
+}
+/*Fim do menu*/
+
+/*Logo - coluna 2 do cabeçalho*/
+div#logo{
+    /*background-color: white;*/
+    border-radius: 10px;
+    margin: auto;
+}
+
+#logo img{
+    max-height: 228px;
+    margin: auto;
+    width: 100%;
+    margin-top: 1px;
+}
+
+#logo > h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #163461;
+    font-size: 3em;
+    margin-bottom: auto;
+}
+
+#logo > h2 {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(181,148,90)
+}
+
+#logo > h3{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(181,148,90)
+}
+
+/*Fim do logo */
+/*Fim do cabeçalho*/
+
+/*Seção principal*/
+main {
+    min-width: 350px;
+}
+
+
+main > section {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+   border-radius: 5px;
+}
+
+/* Sobre Obesidade */
+main> section > article> h2{
+    color: #163461;
+    text-align: center;
+}
+
+main> section > article{
+    background-color: #e7effb;
+    border-radius: 5px 5px;
+}
+
+main > section > article > p{
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+}
+/*Calculadora IMC*/
+
+#calculadoraimc{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#calculadoraimc > div{
+    padding: 10px;
+    color: #163461;
+    background-color: rgba(181, 148, 90, 0.500);
+}
+
+#calculadoraimc> div > h2{
+    text-align: center;
+}
+
+#calculadoraimc > div > p{
+    margin: 0 auto 0 auto;
+    text-align: justify;
+    font-weight: 500;
+    border-radius: 5px
+}
+
+fieldset {
+	width: 300px;
+	margin: 25px auto 0 auto;
+	border: 1px solid #999999;
+	box-shadow: 1px 1px #cccccc;
+	padding: 10px;
+    border-radius: 5px;
+}
+
+input{
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #dbeffe;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button{
+    border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 140px;
+  background-color: #289df6;
+  color: #fff;
+  margin: auto;
+  display: block;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: #0a8ef2;
+}
+
+button:active{
+    background-color: rgba(255, 0, 0, 0.513);
+}
+
+label {
+	float: left;
+	width: 140px;
+	display: block;
+	clear: left;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+button {
+	margin-left: 150px;
+}
+
+input {
+	margin-top: 10px;
+	display: block;
+	text-align: right;
+	width: 128px;
+}
+
+#bmi_label {
+	width: 200px;
+}
+
+#bmi {
+	width: 66px;
+}
+
+#intro {
+	width: 300px;
+	margin: 0 0 0 50px;
+	padding: 10px;
+	border: 1px solid #999999;
+	box-shadow: 1px 1px #cccccc;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    color: rgb(181,148,90);
+    background-image: linear-gradient(to bottom,#163461, #3968AD);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+}
+div#bola{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#bola > img{
+    height: 100px;
+    width: 100px;
+}
