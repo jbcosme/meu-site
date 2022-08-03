@@ -87,7 +87,9 @@ main > section {
     background-color:var(--cor-branco);
     font-family: 'Montserrat', sans-serif;
    border-radius: 5px;
-}
+   max-width: 800px;
+   margin: auto;
+   }
 
 /* Sobre Obesidade */
 main> section > article> h2{
@@ -98,6 +100,7 @@ main> section > article> h2{
 main> section > article{
     background-color: var(--cor-main-section-article-background);
     border-radius: 5px 5px;
+    padding:0px 5px 5px 5px;
 }
 
 main > section > article > p{
