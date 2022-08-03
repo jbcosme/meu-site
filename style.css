@@ -215,7 +215,15 @@ input {
 /*Fim da calculadora IMC*/
 
 /*Tabela IMC*/
-
+#tabela_imc {
+    height: fit-content;
+    max-height: 600px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 /*Fim da tabela IMC*/
 
 /*Fim da seção Main*/
