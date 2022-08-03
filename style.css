@@ -52,7 +52,7 @@ color: var(--cor-gradiente-escuro);
 nav > a {
     text-decoration: none;
     color: var(--cor-letra2);
-    padding: 8px;
+    padding:0px 8px 0px 8px;
 }
 
 nav > a:hover{
@@ -216,14 +216,17 @@ input {
 
 /*Tabela IMC*/
 #tabela_imc {
-    height: fit-content;
-    max-height: 600px;
     width: fit-content;
     margin: auto;
     margin-bottom: 10px;
     border-radius: 5px;
     margin-top: 10px;
+    background-color: var(--cor-gradiente-escuro);
 }
+
+#tabela_imc img{
+    width: 100%;
+    }
 /*Fim da tabela IMC*/
 
 /*Fim da seção Main*/
