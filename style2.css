@@ -205,10 +205,9 @@ input {
 	width: 200px;
 }
 
-#bmi {
-	width: 66px;
+.input_resultado{
+    width: 66px;
 }
-
 #intro {
 	width: 300px;
 	margin: 0 0 0 50px;
