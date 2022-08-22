@@ -47,6 +47,7 @@ background-color: var(--cor-gradiente-escuro);
 padding-right: 5px;
 padding-left: 5px;
 color: var(--cor-gradiente-escuro);
+text-align: center;
 }
 
 nav > a {
